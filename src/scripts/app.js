@@ -23,7 +23,7 @@ function pesquisar(){
 
         if(titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)){
             resultados += `
-            <div>
+            <div class="item-resultado">
                 <h2>
                     <a href="#" target="_blank">${dado.titulo}</a>
                 </h2>
